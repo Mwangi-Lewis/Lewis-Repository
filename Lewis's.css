@@ -1,0 +1,107 @@
+body{background-color: blueviolet;
+    color:rgb(75, 200, 219);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;}
+    .ds{font-size:larger}
+    .center-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh; }
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .center-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh; }
+            .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+            }
+            background-container {
+                position: relative;
+                width: 100%;
+                height: 100vh; 
+                background-color: #000; 
+                overflow: hidden;
+            }
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                min-height: 5vh;
+              }
+              .nav-links {
+                display: flex;
+                list-style: none;
+              }
+              .nav-links li {
+                padding-left: 5rem;
+                font-size: 1.2rem;
+              }
+              .landing {
+                min-height: 100vh;
+                background: url("Gaming setup.jpeg");
+                background-size: cover;
+                padding: 0rem 5rem;
+                }
+              .big-text {
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-30%, -30%);
+                font-size: 5rem;
+                font-family: "Lobster", cursive;
+                color: rgb(70, 200, 229);
+              }
+              .intro {
+                background: rgb(116, 18, 190);
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              }
+              .slider {
+                background: rgb(118, 19, 210);
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                transform: translateY(100%);
+              }
+              .intro-text {
+                color: rgb(237, 231, 228);
+                font-family: "Heebo", sans-serif;
+                font-size: 3rem;
+              }
+              .hide {
+                background: rgb(0, 145, 255);
+              }
+              
+              .hide span {
+                transform: translateY(100%);
+                display: inline-block;
+              }
+              .landing2{
+                min-height: 100vh;
+                background: url("light-bulbs wallpaper.jpeg");
+                background-size: cover;
+                padding: 0rem 5rem;}
+                .landing3{
+                  min-height: 100vh;
+                  background: url("Macbook.jpeg");
+                  background-size: cover;
+                  padding: 0rem 5rem;}
+              
+            
+
+              
+          
